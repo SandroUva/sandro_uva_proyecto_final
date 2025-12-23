@@ -13,7 +13,7 @@ from datetime import datetime
 # ✅ API base URL:
 # - Local: http://localhost:8000
 # - Cloud: setear en Reflex Cloud (Settings -> Environment Variables)
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000").rstrip("/")
+API_BASE_URL = os.getenv("API_BASE_URL", "").rstrip("/")
 
 
 class DashboardState(rx.State):
